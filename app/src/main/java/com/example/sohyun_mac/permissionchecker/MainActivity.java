@@ -8,10 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private final int REQUEST_PERMISSION_CODE=0;
-    String[] permissionNames = {"android.permission.BATTERY_STATS", "android.permission.CALL_PHONE","android.permission.CAMERA"
-            ,"android.permission.ACCESS_NETWORK_STATE", "android.permission.CHANGE_NETWORK_STATE","android.permission.ACCESS_WIFI_STATE"
-            ,"android.permission.CHANGE_WIFI_STATE", "android.permission.READ_CALENDAR", "android.permission.READ_CONTACTS"
-            ,"android.permission.READ_SMS"};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
